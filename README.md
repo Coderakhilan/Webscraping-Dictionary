@@ -4,6 +4,8 @@ This GitHub repository contains a C++ implementation for web scraping and sortin
 The code takes the word input from the user and uses it to navigate to the Merriam Webster dictionary where it webscrapes the HTML contents and locates the class holding the description and synonym of the word. It displays locally in the terminal after code execution.
 # Motivation
 Needed a quick project that will use C++ and concepts learned from my Data Structures & Algorithms Course at my University whilst exploring a new area of interest web data extraction and HTML manipulation. Decided to make life hard and perhaps looking at it positively - interesting? by using C++ which only has two C libraries gumbo and libcurl for webscraping. Finally landed on libcurl API as gumbo parser has been discontinued since 2016.
+# Pre-Requisites
+You need to install curl for windows and the libcurl API. You also need Microsoft Visual Studio and CMake as making libcurl work alongside C++ in windows is extremely frustrating.
 # Working in detail
 First we build a function that holds the scraped data.
 ```
